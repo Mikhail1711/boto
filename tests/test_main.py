@@ -12,7 +12,6 @@ client = TestClient(app)
 @pytest.fixture(scope="session", autouse=True)
 def manage_test_db():
     db = Urls(db_path=TEST_DB_NAME)
-    #return db
     app.dependency_overrides[get_db] = lambda: db
     yield
     db.close()

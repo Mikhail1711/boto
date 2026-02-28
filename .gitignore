@@ -1,7 +1,0 @@
-*
-!*/
-!*.py
-!*.md
-venv/
-.venv/
-__pycache__/

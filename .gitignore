@@ -1,0 +1,11 @@
+*
+!*/
+!*.py
+!*.md
+!*.toml
+!*.pdf
+!.gitignore
+
+venv/
+.venv/
+__pycache__/

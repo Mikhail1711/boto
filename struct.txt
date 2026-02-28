@@ -1,0 +1,14 @@
+shorty/
+├── app/
+│   ├── __init__.py
+│   ├── main.py          # Точка входа, инициализация FastAPI
+│   ├── database.py      # Настройка SQLite (SQLAlchemy/SQLModel)
+│   ├── models.py        # Таблицы БД
+│   ├── schemas.py       # Pydantic модели (валидация запросов)
+│   ├── crud.py          # Логика работы с БД (создание, поиск ссылок)
+│   └── logging_conf.py  # Настройки логов
+├── tests/               # Тесты (pytest)
+│   ├── __init__.py
+│   └── test_main.py
+├── pyproject.toml       # Конфигурация проекта и зависимости
+└── .gitignore           # Исключение лишних файлов (venv, __pycache__, db.sqlite3)
